@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class EventManager : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class EventManager : MonoBehaviour
     [SerializeField]
     private float shakeDuration, decreaseFactor;
     public UnityEvent shakeEvent;
+    public UnityEvent loadScene;
     [SerializeField]
     private int waitFrames;
     [SerializeField]
@@ -50,6 +52,7 @@ public class EventManager : MonoBehaviour
                 shakeDuration = 0;
                 cam.transform.position = camOGPos;
                 camAni.SetBool("F2Trigger", true);
+                StartCoroutine(waitForShake());
             }
         }
     }
@@ -70,5 +73,21 @@ public class EventManager : MonoBehaviour
     public void invokeShakeEvent() 
     {
         shakeEvent.Invoke();
+    }
+
+    public void invokeloadSceneEvent()
+    {
+        loadScene.Invoke();
+    }
+
+    public void loadSceneNum(int num) 
+    {
+        SceneManager.LoadScene(num);
+    }
+
+    private IEnumerator waitForShake() 
+    {
+        yield return new WaitForSeconds(shakeDuration);
+        camAni.enabled = true;
     }
 }
