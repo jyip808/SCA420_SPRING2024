@@ -65,7 +65,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.274
+    m_Value: 0.281
   smoothness:
     m_OverrideState: 1
     m_Value: 0.241
@@ -93,7 +93,7 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 2.17
+    m_Value: 10
   scatter:
     m_OverrideState: 1
     m_Value: 0.75
@@ -153,16 +153,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
     m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 40
+    m_Value: 2
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 60
+    m_Value: 1
   gaussianMaxRadius:
     m_OverrideState: 1
     m_Value: 1.5
@@ -245,10 +245,10 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 0.067
   response:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 0.649
   texture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -267,7 +267,7 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 14
+    m_Value: 19
   tint:
     m_OverrideState: 0
     m_Value: 0
