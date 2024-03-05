@@ -52,7 +52,7 @@ public class EventManager : MonoBehaviour
             {
                 shakeDuration = 0;
                 cam.transform.position = camOGPos;
-                camAni.SetBool("F2Trigger", true);
+                //camAni.SetBool("F2Trigger", true);
                 StartCoroutine(waitForShake());
             }
         }
@@ -89,6 +89,6 @@ public class EventManager : MonoBehaviour
     private IEnumerator waitForShake() 
     {
         yield return new WaitForSeconds(shakeDuration);
-        camAni.enabled = true;
+        //camAni.enabled = true;
     }
 }
