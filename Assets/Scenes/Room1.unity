@@ -1271,14 +1271,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265952829}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.36917913, y: 0, z: 0, w: 0.92935824}
-  m_LocalPosition: {x: 5.862, y: 1.912, z: 6.08}
+  m_LocalRotation: {x: 0.38286972, y: -0, z: -0, w: 0.9238024}
+  m_LocalPosition: {x: 4.874, y: 1.941, z: 5.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1347987149}
   m_Father: {fileID: 1307174823}
-  m_LocalEulerAnglesHint: {x: 43.33, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45.023, y: 0, z: 0}
 --- !u!114 &265952831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3236,6 +3236,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Notebook A
       objectReference: {fileID: 0}
+    - target: {fileID: 7192934069875230085, guid: 33ce9394fee881440af6a01c37ca45d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4672,7 +4677,7 @@ PrefabInstance:
     - target: {fileID: 6725454197654136042, guid: 1e886f819be9fab4e8ec6a5b02e3a65d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.944
+      value: 5.538
       objectReference: {fileID: 0}
     - target: {fileID: 6725454197654136042, guid: 1e886f819be9fab4e8ec6a5b02e3a65d,
         type: 3}
@@ -4682,7 +4687,7 @@ PrefabInstance:
     - target: {fileID: 6725454197654136042, guid: 1e886f819be9fab4e8ec6a5b02e3a65d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.081
+      value: 5.918
       objectReference: {fileID: 0}
     - target: {fileID: 6725454197654136042, guid: 1e886f819be9fab4e8ec6a5b02e3a65d,
         type: 3}
@@ -10927,6 +10932,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Notebook C
+      objectReference: {fileID: 0}
+    - target: {fileID: 1285329494355235837, guid: e583afeed6d25fd43ba460f1b3054b80,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9102369827623288522, guid: e583afeed6d25fd43ba460f1b3054b80,
         type: 3}
