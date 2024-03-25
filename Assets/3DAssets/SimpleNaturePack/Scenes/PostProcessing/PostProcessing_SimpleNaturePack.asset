@@ -42,8 +42,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 196
   maxDistanceVolumetric:
-    m_OverrideState: 0
-    m_Value: 64
+    m_OverrideState: 1
+    m_Value: 65.1
   depthRatio:
     m_OverrideState: 0
     m_Value: 2
@@ -58,7 +58,7 @@ MonoBehaviour:
     m_Value: 5
   anisotropy:
     m_OverrideState: 0
-    m_Value: 0.2
+    m_Value: -1
   lightIntensity:
     m_OverrideState: 0
     m_Value: 1
@@ -112,7 +112,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   octaves:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 3
   lacunarity:
     m_OverrideState: 0
     m_Value: 2
@@ -120,11 +120,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.3
   noiseTiling:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 30
   noiseWindSpeed:
     m_OverrideState: 1
-    m_Value: {x: 300, y: 0, z: 0}
+    m_Value: {x: 0, y: 5000, z: 5000}
   noiseMap:
     m_OverrideState: 0
     m_Value: {x: 0, y: 1}
@@ -136,7 +136,7 @@ MonoBehaviour:
       lacunarity: 2
       gain: 0.35
       seed: 0
-      noiseType: 2
+      noiseType: 0
       noiseQuality: 3
       invert: 0
       userTexture: {fileID: 0}
