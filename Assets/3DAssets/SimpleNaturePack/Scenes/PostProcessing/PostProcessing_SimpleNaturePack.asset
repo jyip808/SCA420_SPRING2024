@@ -33,17 +33,17 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 1
   qualityLevel:
-    m_OverrideState: 0
-    m_Value: 2
+    m_OverrideState: 1
+    m_Value: 3
   gridPixelSize:
-    m_OverrideState: 0
-    m_Value: 12
+    m_OverrideState: 1
+    m_Value: 4
   gridSizeZ:
-    m_OverrideState: 0
-    m_Value: 160
+    m_OverrideState: 1
+    m_Value: 196
   maxDistanceVolumetric:
-    m_OverrideState: 0
-    m_Value: 64
+    m_OverrideState: 1
+    m_Value: 65.1
   depthRatio:
     m_OverrideState: 0
     m_Value: 2
@@ -54,11 +54,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.05
   fogDensity:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 5
   anisotropy:
     m_OverrideState: 0
-    m_Value: 0.2
+    m_Value: -1
   lightIntensity:
     m_OverrideState: 0
     m_Value: 1
@@ -112,7 +112,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   octaves:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 3
   lacunarity:
     m_OverrideState: 0
     m_Value: 2
@@ -123,8 +123,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 30
   noiseWindSpeed:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: -1, z: 0}
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 5000, z: 5000}
   noiseMap:
     m_OverrideState: 0
     m_Value: {x: 0, y: 1}
@@ -136,8 +136,8 @@ MonoBehaviour:
       lacunarity: 2
       gain: 0.35
       seed: 0
-      noiseType: 2
-      noiseQuality: 2
+      noiseType: 0
+      noiseQuality: 3
       invert: 0
       userTexture: {fileID: 0}
 --- !u!114 &-7092124534792364890
@@ -278,16 +278,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   gaussianStart:
     m_OverrideState: 1
-    m_Value: 40
+    m_Value: 0
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 60
+    m_Value: 100
   gaussianMaxRadius:
     m_OverrideState: 1
     m_Value: 1.5

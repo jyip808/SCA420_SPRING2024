@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/OccaSoftware-buto-ab30e95ee6950f86fe6b72feceb70fc2435f8b62/Samples/DemoContent/Levels/AdditionalLightsDemo2_P.unity.meta
+guid: 8a5ec8c98ffb2e343ad50fdc706e78e1
+========
 guid: e614b9451ba8e8d4789cddba9932c54d
+>>>>>>>> merger_buto:Packages/OccaSoftware-buto-ab30e95ee6950f86fe6b72feceb70fc2435f8b62/Samples/DemoContent/Levels/AdditionalLightsDemo_P.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
