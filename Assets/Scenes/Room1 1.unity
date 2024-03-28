@@ -7217,9 +7217,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1307174824}
-  endframe: 960
-  startframe: 0
+  startTime: 0
   animName: Base Layer.Room1CamManager
+  clip: {fileID: 7400000, guid: 9cf87b0c4d26f7142acc1fe65e159c65, type: 2}
 --- !u!4 &1315399873 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2027992762937367308, guid: bad595b04e2d8fb4c815693ac773714b,

@@ -5011,6 +5011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1136790959}
   - component: {fileID: 1136790960}
+  - component: {fileID: 1136790961}
   m_Layer: 0
   m_Name: Cameras
   m_TagString: Untagged
@@ -5059,6 +5060,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1136790961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136790958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b333eb12d453543aa7d221a99e3e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1136790960}
+  startTime: 0
+  animName: Base Layer.Room2CamManager
+  clip: {fileID: 7400000, guid: d771d1c3b06e28046a0a8b9f15e4c5dc, type: 2}
 --- !u!1001 &1155455096
 PrefabInstance:
   m_ObjectHideFlags: 0

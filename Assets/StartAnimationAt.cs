@@ -6,17 +6,19 @@ public class StartAnimationAt : MonoBehaviour
 {
     [SerializeField]
     private Animator anim;
+    //[SerializeField]
+    //private float endframe;
     [SerializeField]
-    private float endframe;
-    [SerializeField]
-    private float startframe;
+    private float startTime;
     [SerializeField]
     private string animName;
+    [SerializeField]
+    private AnimationClip clip;
 
     // Start is called before the first frame update
     void Start()
     {
-        float temp = startframe/endframe;
+        float temp = startTime/clip.length;
         if (anim != null) 
         {
             anim.Play(animName, 0, temp);

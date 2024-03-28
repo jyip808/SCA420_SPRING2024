@@ -26,6 +26,7 @@ public class EventManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        camOGPos = cam.transform.position;
         QualitySettings.vSyncCount = 0;
         Application.targetFrameRate = 24;
     }
@@ -67,7 +68,6 @@ public class EventManager : MonoBehaviour
 
     public void shakeFuncOn() 
     {
-        camOGPos = cam.transform.position;
         shakeOn = true;
     }
 
