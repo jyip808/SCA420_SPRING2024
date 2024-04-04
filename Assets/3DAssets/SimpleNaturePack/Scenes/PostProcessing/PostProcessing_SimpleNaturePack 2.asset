@@ -119,7 +119,7 @@ MonoBehaviour:
     m_Value: 100
   gaussianMaxRadius:
     m_OverrideState: 1
-    m_Value: 1.5
+    m_Value: 0.5
   highQualitySampling:
     m_OverrideState: 0
     m_Value: 0
@@ -312,16 +312,16 @@ MonoBehaviour:
     m_Value: 1
   qualityLevel:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 4
   gridPixelSize:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 7
   gridSizeZ:
     m_OverrideState: 1
     m_Value: 196
   maxDistanceVolumetric:
     m_OverrideState: 1
-    m_Value: 65.1
+    m_Value: 105.92
   depthRatio:
     m_OverrideState: 0
     m_Value: 2
@@ -333,7 +333,7 @@ MonoBehaviour:
     m_Value: 0.05
   fogDensity:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: 1
   anisotropy:
     m_OverrideState: 0
     m_Value: -1
@@ -402,7 +402,7 @@ MonoBehaviour:
     m_Value: 30
   noiseWindSpeed:
     m_OverrideState: 1
-    m_Value: {x: 0, y: 5000, z: 5000}
+    m_Value: {x: 1000000, y: 0, z: 0}
   noiseMap:
     m_OverrideState: 0
     m_Value: {x: 0, y: 1}
