@@ -48650,7 +48650,7 @@ MonoBehaviour:
   camAni: {fileID: 0}
   shakeMag: 0.03
   shakeSpeed: 1
-  shakeDuration: 5
+  shakeDuration: 2
   decreaseFactor: 1
   shakeEvent:
     m_PersistentCalls:
