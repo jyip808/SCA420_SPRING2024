@@ -79,7 +79,7 @@ MonoBehaviour:
     m_Value: 0.05
   fogDensity:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 12.12
   anisotropy:
     m_OverrideState: 1
     m_Value: -0.1
@@ -395,7 +395,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.274
+    m_Value: 0.945
   smoothness:
     m_OverrideState: 1
     m_Value: 0.241
@@ -417,4 +417,4 @@ MonoBehaviour:
   active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 1
