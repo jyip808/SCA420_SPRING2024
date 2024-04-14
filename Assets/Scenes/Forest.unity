@@ -24307,7 +24307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &645757136
 Transform:
   m_ObjectHideFlags: 0
@@ -24316,14 +24316,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 645757135}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5698961, y: 0.48914272, z: 0.5300955, w: 0.3936454}
-  m_LocalPosition: {x: 2.8109999, y: -179.04001, z: -36.68}
+  m_LocalRotation: {x: 0.06764895, y: 0.027848365, z: 0.10860173, w: 0.9913899}
+  m_LocalPosition: {x: -188.49, y: -40.099995, z: -12.088999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1004939674}
   - {fileID: 1389518699}
-  m_Father: {fileID: 733487846}
+  m_Father: {fileID: 1450087303}
   m_LocalEulerAnglesHint: {x: 7.359, y: 4.042, z: 12.763}
 --- !u!114 &645757137
 MonoBehaviour:
@@ -28033,7 +28033,6 @@ Transform:
   - {fileID: 1214889935}
   - {fileID: 848715188}
   - {fileID: 1169526621}
-  - {fileID: 645757136}
   m_Father: {fileID: 1450087303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &733487847
@@ -46933,7 +46932,7 @@ Transform:
   m_GameObject: {fileID: 1258857096}
   serializedVersion: 2
   m_LocalRotation: {x: 0.38509083, y: -0.09964624, z: 0.13831218, w: 0.90699804}
-  m_LocalPosition: {x: -203.1, y: -13.799999, z: -41.6}
+  m_LocalPosition: {x: -118, y: 5.7, z: -38.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -53343,6 +53342,7 @@ Transform:
   - {fileID: 1258857097}
   - {fileID: 44593689}
   - {fileID: 733487846}
+  - {fileID: 645757136}
   - {fileID: 1155955819}
   - {fileID: 2106395147}
   - {fileID: 324718571}
@@ -53463,13 +53463,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450087302}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17b333eb12d453543aa7d221a99e3e31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1450087304}
-  startTime: 0
+  startTime: 41
   animName: Base Layer.ForestCamManager
   clip: {fileID: 7400000, guid: 84ad042bb1338f04e85d270438ac0fef, type: 2}
 --- !u!1001 &1450308477
