@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/screenEmission.mat.meta
-guid: 12d92705728c69747bd7fdb9c10b1a60
+<<<<<<<< HEAD:Assets/room2Mat.mat.meta
+guid: 798a0a905b300d544a1d0425c2d586c5
 NativeFormatImporter:
 ========
-guid: bbbc61128288e9c4d990297bd119077e
+guid: 20a5704e515f6144db47aab104976fed
 folderAsset: yes
 DefaultImporter:
->>>>>>>> origin/april-11:Assets/2DAssets/sq3/seq3sh10.meta
+>>>>>>>> origin/april-11:Assets/2DAssets/sq2/sq2s3.meta
   externalObjects: {}
   mainObjectFileID: 2100000
   userData: 

@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/room2Mat.mat.meta
+guid: 26fac6f63ee470044acbce854b805461
+NativeFormatImporter:
+========
 guid: 20a5704e515f6144db47aab104976fed
 folderAsset: yes
 DefaultImporter:
+>>>>>>>> origin/april-11:Assets/2DAssets/sq2/sq2s3.meta
   externalObjects: {}
+  mainObjectFileID: 2100000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
