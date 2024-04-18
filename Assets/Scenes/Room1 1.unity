@@ -1367,7 +1367,7 @@ SpriteRenderer:
   m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &136949576 stripped
@@ -3894,7 +3894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &478225331
 Transform:
   m_ObjectHideFlags: 0
@@ -8727,7 +8727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1100178697
 Transform:
   m_ObjectHideFlags: 0
@@ -8857,7 +8857,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1103155826
 Transform:
   m_ObjectHideFlags: 0
@@ -9341,7 +9341,7 @@ SpriteRenderer:
   m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1153540337 stripped
@@ -11366,7 +11366,7 @@ SpriteRenderer:
   m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1373570834
@@ -12967,13 +12967,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550164935}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.054677628, y: -0.076735854, z: -0.12442217, w: 0.9877455}
-  m_LocalPosition: {x: 3.0699756, y: -2.4053898, z: -12.739592}
+  m_LocalRotation: {x: -0.055522963, y: -0.0006978493, z: -0.30961832, w: 0.9492383}
+  m_LocalPosition: {x: 0.1, y: -3.5, z: -11.1}
   m_LocalScale: {x: 124.921936, y: 124.92195, z: 124.921906}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 472436834}
-  m_LocalEulerAnglesHint: {x: 64.755, y: -12.338, z: -19.268}
+  m_LocalEulerAnglesHint: {x: -6.0756397, y: 1.9050804, z: -36.231228}
 --- !u!114 &1550164938
 MonoBehaviour:
   m_ObjectHideFlags: 0
