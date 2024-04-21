@@ -5586,7 +5586,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 131d66b2f082cc34382dd0bc37350e21, type: 2}
+      objectReference: {fileID: 2100000, guid: 27b6323da01d48dc8065f249b56aec90, type: 2}
     - target: {fileID: 2002531610298924283, guid: 3c41f2c2ee7dcea4cbae062155a62810,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6902,7 +6902,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136790958}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: f4733f0a1552d2e4a8d2314c1f4fa175, type: 2}
   m_CullingMode: 0

@@ -46,7 +46,7 @@ MonoBehaviour:
     m_Value: 0
   gaussianEnd:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 0
   gaussianMaxRadius:
     m_OverrideState: 1
     m_Value: 0.5
@@ -251,14 +251,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   lift:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {x: 1, y: 0.95938045, z: 0.97137505, w: -0.00037540786}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 0.94302493, y: 0.98329544, z: 1, w: 0.08488966}
+    m_Value: {x: 0.94302493, y: 0.98329544, z: 1, w: -0.016366612}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 0.97369474, y: 0.9489962, z: 1, w: -0.10186759}
+    m_Value: {x: 0.97369474, y: 0.9489962, z: 1, w: 0.04910009}
 --- !u!114 &3750540137450886837
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -334,11 +334,11 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 64
   baseHeight:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: -9.75
   attenuationBoundarySize:
-    m_OverrideState: 0
-    m_Value: 10
+    m_OverrideState: 1
+    m_Value: 31.5
   litColor:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
