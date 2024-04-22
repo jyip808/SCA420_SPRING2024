@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
     m_Value: 0.168
@@ -191,13 +191,13 @@ MonoBehaviour:
     m_Value: 1
   qualityLevel:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 0
   gridPixelSize:
     m_OverrideState: 1
-    m_Value: 4
+    m_Value: 12
   gridSizeZ:
     m_OverrideState: 1
-    m_Value: 196
+    m_Value: 64
   maxDistanceVolumetric:
     m_OverrideState: 1
     m_Value: 43
@@ -294,7 +294,7 @@ MonoBehaviour:
       gain: 0.35
       seed: 0
       noiseType: 0
-      noiseQuality: 3
+      noiseQuality: 0
       invert: 0
       userTexture: {fileID: 0}
 --- !u!114 &4213876580295531267
