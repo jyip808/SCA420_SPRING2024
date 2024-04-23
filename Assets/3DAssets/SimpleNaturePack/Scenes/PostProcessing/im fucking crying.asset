@@ -191,16 +191,16 @@ MonoBehaviour:
     m_Value: 1
   qualityLevel:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   gridPixelSize:
     m_OverrideState: 1
-    m_Value: 12
+    m_Value: 8
   gridSizeZ:
     m_OverrideState: 1
-    m_Value: 64
+    m_Value: 164
   maxDistanceVolumetric:
     m_OverrideState: 1
-    m_Value: 128.91
+    m_Value: 100
   depthRatio:
     m_OverrideState: 0
     m_Value: 2
@@ -212,7 +212,7 @@ MonoBehaviour:
     m_Value: 0.05
   fogDensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.1
   anisotropy:
     m_OverrideState: 1
     m_Value: 0.11
@@ -233,10 +233,10 @@ MonoBehaviour:
     m_Value: 64
   baseHeight:
     m_OverrideState: 1
-    m_Value: 7.1
+    m_Value: 11.27
   attenuationBoundarySize:
-    m_OverrideState: 0
-    m_Value: 7.69
+    m_OverrideState: 1
+    m_Value: 11
   litColor:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0.3
   noiseTiling:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   noiseWindSpeed:
     m_OverrideState: 0
@@ -294,7 +294,7 @@ MonoBehaviour:
       gain: 0.35
       seed: 0
       noiseType: 0
-      noiseQuality: 0
+      noiseQuality: 2
       invert: 0
       userTexture: {fileID: 0}
 --- !u!114 &4213876580295531267
