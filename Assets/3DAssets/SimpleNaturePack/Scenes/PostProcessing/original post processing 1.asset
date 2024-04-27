@@ -191,13 +191,13 @@ MonoBehaviour:
     m_Value: 1
   qualityLevel:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   gridPixelSize:
     m_OverrideState: 1
-    m_Value: 12
+    m_Value: 8
   gridSizeZ:
     m_OverrideState: 1
-    m_Value: 64
+    m_Value: 164
   maxDistanceVolumetric:
     m_OverrideState: 1
     m_Value: 43
@@ -294,7 +294,7 @@ MonoBehaviour:
       gain: 0.35
       seed: 0
       noiseType: 0
-      noiseQuality: 0
+      noiseQuality: 2
       invert: 0
       userTexture: {fileID: 0}
 --- !u!114 &4213876580295531267
